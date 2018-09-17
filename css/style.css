@@ -1,0 +1,116 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/img1.jpeg);
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login{
+    width: 320px;
+    height: 420px;
+    background: rgb(198, 215, 238);
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 23px;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+
+.btn_submit{
+    margin: auto;
+    display: block;
+    width: 90px;
+    height: 40px;
+    background: #95bbdf;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-bottom: 15px;    
+}
+
+.btn_submit:hover{
+    cursor: pointer;
+    background: white;
+}
+
+.btn_submit a{
+    text-decoration: none;
+    color: black;
+}
+
+/********HM PAGE******/
+
+.container{
+    max-width: 960px;
+    margin:0 auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.figure1, .figure2, .figure3, .figure4, .figure5, .figure6, .figure7, .figure8{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.figure-img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    background-color: rgb(245, 235, 235);
+}
+
+.desc{
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    background-color: beige;
+}
+
+.title{
+    padding: 20px;
+    font-size: 3rem;
+}
